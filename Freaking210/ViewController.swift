@@ -12,10 +12,14 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var theLabel: UILabel!
     
+    @IBAction func buttonTapped(_ sender: Any) {
+        theLabel.text = "Hello, Planet Earth!"
+
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        theLabel.text = "Title"
     }
     
     override func didReceiveMemoryWarning() {
