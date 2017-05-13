@@ -12,17 +12,15 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var theLabel: UILabel!
     
+    var tapCount = 0
+    
     @IBAction func buttonTapped(_ sender: Any) {
         
-        theLabel.text = "Hello, Planet Earth!"
-        print("First button tapped.")
+tapCount += 1
         
-    }
-    
-    @IBAction func otherButton(_ sender: Any) {
-        
-        theLabel.text = "Buttons are cool!"
-        print("Other button tapped.")
+        if tapCount >= 10 {
+            theLabel.text = "You tapped at least 10 times."
+        }
         
     }
     

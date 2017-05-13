@@ -34,22 +34,13 @@
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oze-SS-0cv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Lt-sJ-dPS">
-                                <rect key="frame" x="110" y="111" width="100" height="30"/>
-                                <state key="normal" title="Then tap here!"/>
-                                <connections>
-                                    <action selector="otherButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nO1-Mb-nhN"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ABB-QV-PTV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hll-OI-2D9"/>
-                            <constraint firstItem="4Lt-sJ-dPS" firstAttribute="top" secondItem="Pfg-DU-JmF" secondAttribute="bottom" constant="10" id="YqC-nR-OcD"/>
                             <constraint firstItem="ABB-QV-PTV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="iI9-x0-gTd"/>
                             <constraint firstItem="Pfg-DU-JmF" firstAttribute="top" secondItem="ABB-QV-PTV" secondAttribute="bottom" constant="10" id="oRX-6e-Tsg"/>
                             <constraint firstItem="Pfg-DU-JmF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sDt-pI-hCh"/>
-                            <constraint firstItem="4Lt-sJ-dPS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tCK-WI-LFF"/>
                         </constraints>
                     </view>
                     <connections>
