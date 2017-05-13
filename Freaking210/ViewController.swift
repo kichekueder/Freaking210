@@ -13,8 +13,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var theLabel: UILabel!
     
     @IBAction func buttonTapped(_ sender: Any) {
+        
         theLabel.text = "Hello, Planet Earth!"
-
+        
+    }
+    
+    @IBAction func otherButton(_ sender: Any) {
+        
+        theLabel.text = "Buttons are cool!"
+        
     }
     
     override func viewDidLoad() {
