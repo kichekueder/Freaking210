@@ -15,12 +15,14 @@ class ViewController: UIViewController {
     @IBAction func buttonTapped(_ sender: Any) {
         
         theLabel.text = "Hello, Planet Earth!"
+        print("First button tapped.")
         
     }
     
     @IBAction func otherButton(_ sender: Any) {
         
         theLabel.text = "Buttons are cool!"
+        print("Other button tapped.")
         
     }
     
